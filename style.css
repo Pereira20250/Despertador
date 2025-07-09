@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: green;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: yellow;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border: 1px solid blue;
+  border-radius: 6px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-left: 5px solid blue;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li .delete {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

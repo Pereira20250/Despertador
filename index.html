@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acorda</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Hora de Levantar</h1>
+  <div class="container">
+    <input type="text" id="taskInput" placeholder="Digite sua tarefa..." />
+    <input type="time" id="timeInput" />
+    <button onclick="addTask()">Adicionar Tarefa</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <audio id="alarmSound" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
